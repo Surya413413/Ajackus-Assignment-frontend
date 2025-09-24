@@ -1,0 +1,84 @@
+
+.user-list {
+  margin-top: 20px;
+  overflow-x: auto; /* allow horizontal scroll if table is too wide */
+}
+
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  min-width: 600px; /* ensures table doesn’t shrink too much */
+}
+
+.user-list th, .user-list td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.user-list th {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  font-weight: 600;
+}
+
+.user-list tr:nth-child(even) {
+  background: #f2f9ff;
+}
+
+.user-list tr:hover {
+  background: #d0eaff;
+}
+
+/* Buttons */
+.edit-btn {
+  background: #ffc107;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.edit-btn:hover {
+  background: #e0a800;
+}
+
+.delete-btn {
+  background: #dc3545;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  .user-list table {
+    display: block;
+    overflow-x: auto;
+    min-width: 0; /* allow table to shrink */
+    font-size: 12px;
+  }
+
+  .user-list th, .user-list td {
+    padding: 8px;
+  }
+
+  .edit-btn, .delete-btn {
+    padding: 4px 8px;
+    font-size: 12px;
+    margin: 2px 0;
+  }
+}
+
