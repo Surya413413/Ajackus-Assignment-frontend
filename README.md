@@ -1,10 +1,11 @@
 User Management Dashboard
-Project Overview
+
+### Project Overview
 
 The User Management Dashboard is a responsive web application built with React.js that allows users to view, add, edit, and delete user data. It interacts with a public mock API (JSONPlaceholder
 ) to simulate backend operations. The project focuses on frontend development, state management, and responsive UI design.
 
-Key Features:
+### Key Features:
 
 Display a paginated list of users.
 
@@ -22,42 +23,42 @@ Modern UI with gradients, hover effects, and clean layout.
 
 Setup Instructions
 
-Clone the repository
+### Clone the repository
 
-git clone https://github.com/your-username/user-management-dashboard.git
+git clone https://github.com/Surya413413/Ajackus-Assignment-frontend.git
 
 
-Navigate to the project folder
+### Navigate to the project folder
 
 cd user-management-dashboard
 
 
-Install dependencies
+### Install dependencies
 
 npm install
 
 
-Start the development server
+### Start the development server
 
 npm start
 
 
-Open in browser
+### Open in browser
 
 The app will run at: http://localhost:3000
 
-Run Instructions
+### Run Instructions
 
 Start the project in development mode:
 
 npm start
 
 
-Build the project for production:
+## Build the project for production:
 
 npm run build
 
-Folder Structure
+### Folder Structure
 user-management-dashboard/
 │
 ├─ public/
@@ -87,7 +88,7 @@ user-management-dashboard/
 ├─ package.json
 └─ README.md
 
-Reflections
+### Reflections
 Challenges Faced
 
 Handling mock API behavior: JSONPlaceholder does not persist data, so I had to manage local state to simulate add/edit/delete operations.
@@ -96,7 +97,7 @@ Responsive design: Ensuring tables, forms, and buttons look good on mobile and d
 
 State management: Coordinating between user form, table, search, and pagination required careful state updates.
 
-Improvements
+### Improvements
 
 Implementing a real backend with database to persist user data.
 
@@ -106,6 +107,8 @@ Enhancing UI/UX: animated transitions, mobile-first design, and better color the
 
 Adding sorting and advanced filtering options.
 
-Deployed Link
+### screenshot 
+### Dashboard View
+<img width="959" height="539" alt="Screenshot 2025-09-24 110347" src="https://github.com/user-attachments/assets/70f6a18f-d828-4fc1-8c1f-4f8fa8e2db3b" />
 
-[Your Deployed App Link Here]
+
